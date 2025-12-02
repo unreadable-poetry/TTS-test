@@ -40,12 +40,12 @@ async function callExplainAPI(userText) {
 const body = { prompt: userText };
 
 try {
-const res = await fetch('[https://api.example.com/explain](https://api.example.com/explain)', {
+const res = await fetch('[https://voicerss-text-to-speech.p.rapidapi.com/](https://voicerss-text-to-speech.p.rapidapi.com/)', {
 method: 'POST',
 headers: {
 'Content-Type': 'application/json',
-'X-RapidAPI-Key': 'YOUR_KEY_HERE',
-'X-RapidAPI-Host': 'api-host-here'
+'X-RapidAPI-Key': '710b5b9c74mshd9476a50dfdf9e9p15c168jsn003ad826821c',
+'X-RapidAPI-Host': 'voicerss-text-to-speech.p.rapidapi.com'
 },
 body: JSON.stringify(body)
 });
